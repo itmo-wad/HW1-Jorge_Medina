@@ -1,4 +1,4 @@
-# HW1-Jorge_Medina
+# HW1-Jorge-Medina
 Jorge Medina
 N4156c
 Homework1
