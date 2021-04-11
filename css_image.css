@@ -1,0 +1,39 @@
+.heading{
+    text-align: center}
+
+.flexi {
+    max-width: 900px;
+    margin: 0 auto}
+
+.image_container {
+    margin: -1rem -1rem;
+    display: flex;  
+    flex-wrap: wrap /* wrap to send the images in multiple lines*/}
+
+/* setting the image to relative position, not permit overlap*/
+.image_container div {
+    position: relative; 
+   padding: 1rem;
+   flex: 1 0 22rem}
+
+/* provide scale at image in the column*/
+.flexi .image_container div img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%}
+
+.row{
+      width:900px;
+      padding: 5px 5px;
+      text-align: center;
+      margin: auto}
+
+  .row div {
+    float:right;
+    width: 31.3%;
+    padding: 9px;
+  
+  }
+  .row div img{
+      width:100%;
+  }
